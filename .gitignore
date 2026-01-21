@@ -43,3 +43,8 @@ appium.log
 *.apk
 *.app
 *.ipa
+
+# Allure
+**/target/allure-results/
+**/target/site/allure-maven/
+

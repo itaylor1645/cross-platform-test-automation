@@ -32,6 +32,14 @@ public final class TestConfig {
         );
     }
 
+    public static boolean slowMode() {
+        return Boolean.parseBoolean(System.getProperty("slowMode", "false"));
+    }
+
+    public static long slowDelayMs() {
+        return Long.parseLong(System.getProperty("slowDelayMs", "500"));
+    }
+
     // ---- Test users (demo-site safe defaults) ----
 
     public static String standardUser() {
