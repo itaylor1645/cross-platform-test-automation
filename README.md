@@ -23,6 +23,9 @@ This README focuses on **getting the project running after cloning/copying the r
 - **Maven** (or use the included Maven Wrapper if you add it later)
 - **Google Chrome** (recommended default browser)
 
+Download Git here: https://git-scm.com/download/win
+Download Maven here: https://maven.apache.org/download.cgi
+
 **Recommended**
 - IntelliJ IDEA (Community is fine)
 
