@@ -26,8 +26,23 @@ This README focuses on **getting the project running after cloning/copying the r
 Download Git here: https://git-scm.com/download/win
 Download Maven here: https://maven.apache.org/download.cgi
 
-**Recommended**
-- IntelliJ IDEA (Community is fine)
+## Allure Reporting (Optional)
+
+This project uses **Allure** for rich test reports.
+
+### Install Allure (Windows)
+
+**Winget (recommended):**
+```powershell
+winget install --id Qameta.Allure --source winget
+Download(for manulal install): https://github.com/allure-framework/allure2/releases
+
+#Viewing Reports
+From the project folder: allure serve target/allure-results
+
+## Corporate Network Notes
+If running behind a VPN with SSL inspection, Java may require the corporate
+root CA to be added to its truststore for Maven dependency resolution.
 
 Verify installs:
 ```bash
